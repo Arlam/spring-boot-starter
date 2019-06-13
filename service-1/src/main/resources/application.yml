@@ -1,0 +1,5 @@
+server:
+  port: 34001
+logging:
+  pattern:
+    console: "%d %-5level [%X{correlationId}] %logger : %msg%n"
